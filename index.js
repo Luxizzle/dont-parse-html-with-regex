@@ -30,7 +30,7 @@ module.exports = class DontParseRegexWithHtml {
     })
   }
 
-  parse(html, cb = function() {}) {
+  parse(html, cb) {
     this.reset()
     while (html.length > 0) {
       var chars = true
@@ -65,7 +65,7 @@ module.exports = class DontParseRegexWithHtml {
       }
     }
     //console.log(this.findLastTag('b'))
-    cb(null, this.stack)
+    if (cb) cb(null, this.stack);
     return this.stack
   }
 
