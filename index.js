@@ -132,7 +132,7 @@ module.exports = class DontParseRegexWithHtml {
 
   parseChars(chars) {
     //console.log(chars)
-    chars = chars.trim()
+    chars = chars.replace(/\n/g, '')
     if (chars.length === 0) return;
     this.stack.push({
       type: 'text',
