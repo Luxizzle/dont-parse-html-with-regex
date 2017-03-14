@@ -1,6 +1,6 @@
 {
   "name": "dont-parse-html-with-regex",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Title says all.",
   "main": "index.js",
   "scripts": {
