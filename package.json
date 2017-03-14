@@ -6,6 +6,11 @@
   "scripts": {
     "test": "node ./test.js"
   },
+  "keywords": [
+    "html",
+    "regex",
+    "I am satan the lord of darkness"
+  ],
   "author": "Lux Pandora (Jelmer)",
   "license": "MIT",
   "dependencies": {}
